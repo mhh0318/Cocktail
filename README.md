@@ -8,6 +8,10 @@
 
 
 
+https://github.com/mhh0318/Cocktail/assets/42776955/f9a97f2c-896f-4cac-a848-7696b4e0ace3
+
+
+
 ![img](readme/cktl.png)
 
 Our approach requires only one generalized model, unlike previous that needed multiple models for multiple modalities. 
