@@ -54,6 +54,20 @@ conda env create -f environment.yaml
 
 Download the pretrained models from [here](https://huggingface.co/MichaelHu/cocktail), and save it to the root dir.
 
+### Annotations
+We use HED, SAN, and OpenPose to extract the sketch map, segmentation map, and human pose map from the image.
+- Extract sketch map:
+```python
+python annotator/hed.py {/path/to/image.png} {/path/to/sketch.png}
+```
+- Extract segmentation map:
+```python
+python annotator/SAN/run.py {/path/to/image.png} {/path/to/seg.png}
+```
+- Extract human pose map:
+```python
+python annotator/openpose/run.py {/path/to/image.png} {/path/to/openpose.png}
+```
 
 ### Quick Inference
 
