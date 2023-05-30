@@ -6,13 +6,17 @@
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-blue.svg" height=22.5></a> 
 <a href="https://huggingface.co/MichaelHu/cocktail"><img src="https://img.shields.io/badge/HuggingFace-Checkpoint-yellow.svg" height=22.5></a> 
 
+https://github.com/mhh0318/Cocktail/assets/42776955/f9a97f2c-896f-4cac-a848-7696b4e0ace3
 
 
-https://github.com/mhh0318/Cocktail/assets/42776955/f9a97f2c-896f-4cac-a848-7696b4e0ace3<br/>
-<br/>
-<br/>
-
-
+&nbsp;
+&nbsp;
+&nbsp;
+  
+&nbsp;
+&nbsp;
+&nbsp;
+  
 ![img](readme/cktl.png)
 
 Our approach requires only one generalized model, unlike previous that needed multiple models for multiple modalities. 
