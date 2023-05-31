@@ -7,6 +7,7 @@
 <a href="https://huggingface.co/MichaelHu/cocktail"><img src="https://img.shields.io/badge/HuggingFace-Checkpoint-yellow.svg" height=22.5></a> 
 
 ![img](samples/results/3_sample_0_mark.png)
+
 *James Bond is drinking Cocktail🍸.*
 
 &nbsp;
