@@ -19,7 +19,8 @@ https://github.com/mhh0318/Cocktail/assets/42776955/f9a97f2c-896f-4cac-a848-7696
   
 ![img](readme/cktl.png)
 
-Our approach requires only one generalized model, unlike previous that needed multiple models for multiple modalities. 
+Our approach requires only **[one generalized model]**, unlike previous that needed multiple models for mixing multiple modalities. 
+
 Different from currently existing schemes, our scheme does not require modifications to the modal prior of the base model <strong>Fig.(a)</strong>, which results in a significant reduction in cost. Also in the face of multiple modalities we do not need multiple models demonstrated in <strong>Fig.(b)</strong>. Cocktail🍸 fuse the information from multiple modalities like <strong>Fig.(c)</strong> shown.
 
 ## Abstract 
@@ -35,10 +36,20 @@ The parameters indicated by the yellow sections are sourced from the pre-trained
 
 ## Results
 
+### [Examples] Cocktail for Multi-modality
+
 ![img](readme/fig1.png)
-![img](readme/fig3.png)
+
+### [Examples] Cocktail for free-modality
 ![img](readme/fig4.png)
 ![img](readme/fig5.png)
+
+### [Comparisons] single-modality
+![img](readme/fig3.png)
+
+### [Comparisons] multi-modality
+
+
 
 
 ## TODO
