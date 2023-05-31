@@ -38,6 +38,7 @@ The parameters indicated by the yellow sections are sourced from the pre-trained
 ![img](readme/fig1.png)
 ![img](readme/fig3.png)
 ![img](readme/fig4.png)
+![img](readme/fig5.png)
 
 
 ## TODO
