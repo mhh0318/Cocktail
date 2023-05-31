@@ -21,7 +21,8 @@ https://github.com/mhh0318/Cocktail/assets/42776955/f9a97f2c-896f-4cac-a848-7696
   
 ![img](readme/cktl.png)
 
-Our approach requires only one generalized model, unlike previous that needed multiple models for multiple modalities. 
+Our approach requires only **[one generalized model]**, unlike previous that needed multiple models for mixing multiple modalities. 
+
 Different from currently existing schemes, our scheme does not require modifications to the modal prior of the base model <strong>Fig.(a)</strong>, which results in a significant reduction in cost. Also in the face of multiple modalities we do not need multiple models demonstrated in <strong>Fig.(b)</strong>. Cocktail🍸 fuse the information from multiple modalities like <strong>Fig.(c)</strong> shown.
 
 ## Abstract 
@@ -37,10 +38,26 @@ The parameters indicated by the yellow sections are sourced from the pre-trained
 
 ## Results
 
+### [Examples] Cocktail for Multi-modality
+
 ![img](readme/fig1.png)
+
+### [Examples] Cocktail for free-modality
+
+
+### [Comparisons] single-modality
+
 ![img](readme/fig3.png)
-![img](readme/fig4.png)
+
+### [Comparisons] multi-modality
+
+Here, the "cross" symbol ❌ and the checkmark symbol ✅ denote the unmatched and matched modalities, respectively. It is important to note that our model accurately captures all modalities.
+
 ![img](readme/fig5.png)
+![img](readme/fig4.png)
+
+
+
 
 
 ## TODO
@@ -103,4 +120,15 @@ If the environment is setup correctly, this command should function properly and
 Our codebase for the diffusion models builds heavily on [ControlNet](https://github.com/lllyasviel/ControlNet) and  [Stable Diffusion](https://github.com/CompVis/stable-diffusion).
 
 Thanks for the opensourcing!
+
+## Citation
+If you use this code for your research, please cite our paper.
+```
+@article{hu2023cocktail,
+  title = {Cocktail: Mixing Multi-Modality Controls for Text-Conditional Image Generation},
+  author = {Hu, Minghui and Zheng, Jianbin and Liu, Daqing and Zheng, Chuanxia and Wang, Chaoyue and Tao, Dacheng and Cham, Tat-Jen},
+  journal = {arXiv},
+  year = {2023},
+}
+```
 
