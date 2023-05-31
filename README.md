@@ -41,13 +41,19 @@ The parameters indicated by the yellow sections are sourced from the pre-trained
 ![img](readme/fig1.png)
 
 ### [Examples] Cocktail for free-modality
-![img](readme/fig4.png)
-![img](readme/fig5.png)
+
 
 ### [Comparisons] single-modality
+
 ![img](readme/fig3.png)
 
 ### [Comparisons] multi-modality
+
+Here, the "cross" symbol ❌ and the checkmark symbol ✅ denote the unmatched and matched modalities, respectively. It is important to note that our model accurately captures all modalities.
+
+![img](readme/fig5.png)
+![img](readme/fig4.png)
+
 
 
 
