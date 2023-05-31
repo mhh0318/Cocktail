@@ -119,3 +119,14 @@ Our codebase for the diffusion models builds heavily on [ControlNet](https://git
 
 Thanks for the opensourcing!
 
+## Citation
+If you use this code for your research, please cite our paper.
+```
+@article{hu2023cocktail,
+  title = {Cocktail: Mixing Multi-Modality Controls for Text-Conditional Image Generation},
+  author = {Hu, Minghui and Zheng, Jianbin and Liu, Daqing and Zheng, Chuanxia and Wang, Chaoyue and Tao, Dacheng and Cham, Tat-Jen},
+  journal = {arXiv},
+  year = {2023},
+}
+```
+
