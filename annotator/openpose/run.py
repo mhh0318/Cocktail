@@ -17,6 +17,6 @@ if __name__ == '__main__':
     if hand_and_face == "True":
         openpose_map = model(image, hand_and_face=True)
     else:
-        openpose_map = model(image, hand_and_face=False)
+        openpose_map = model(image, hand_and_face=True)
         
     Image.fromarray(openpose_map).save(out_path)

@@ -5,7 +5,7 @@ import numpy as np
 import torch
 from pytorch_lightning import seed_everything
 
-from annotator.util import resize_image, HWC3
+from cocktail.utils import resize_image, HWC3
 from cocktail.model import create_model
 from ldm.models.diffusion.ddim import DDIMSampler
 
@@ -18,7 +18,9 @@ model.eval()
 
 prompts_set = {
                 0: "An astronaut standing on the mountain.",
-                1: "A little boy walks down the road, followed by a cat."
+                1: "A little boy walks down the road, followed by a cat.",
+                2: "James Bond and cocktail.",
+                3: "James Bond is drinking cocktail."
                 }
 
 idx = sys.argv[1] # 1, 5, 7
@@ -54,7 +56,7 @@ model.cuda()
 
 # prompt = 'A girl stands on a mountain ground, looking at a sheep'
 prompt = prompts_set[int(idx)]
-a_prompt = 'best quality, extremely detailed.'
+a_prompt = 'best quality, extremely detailed, cyberpunk.'
 n_prompt = 'longbody, lowres, bad anatomy, bad hands, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality.'
 
 c = model.get_learned_conditioning([prompt + ', ' + a_prompt] * n_samples)
