@@ -41,6 +41,7 @@ The parameters indicated by the yellow sections are sourced from the pre-trained
 
 ### [Examples] Cocktail for free-modality
 
+![img](readme/free.png)
 
 ### [Comparisons] single-modality
 
