@@ -1,4 +1,4 @@
-# *Cocktail*🍸: Unified Discrete Diffusion for Simultaneous Vision-Language Generation
+# *Cocktail*🍸: Mixing Multi-Modality Controls for Text-Conditional Image Generation
 
 
 <!-- <a href=""><img src="https://img.shields.io/badge/arXiv-2203.10821-b31b1b.svg" height=22.5></a>  -->
@@ -10,15 +10,11 @@
 
 *James Bond is drinking Cocktail🍸.*
 
-&nbsp;
-&nbsp;
-&nbsp;
 
-https://github.com/mhh0318/Cocktail/assets/42776955/f9a97f2c-896f-4cac-a848-7696b4e0ace3
 
-&nbsp;
-&nbsp;
-&nbsp;
+https://github.com/mhh0318/Cocktail/assets/42776955/e2a93a6d-3e36-4e54-8462-b359fa8946fa
+
+
   
 ![img](readme/cktl.png)
 
