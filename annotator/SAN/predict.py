@@ -24,8 +24,8 @@ from detectron2.utils.visualizer import Visualizer, random_color
 from huggingface_hub import hf_hub_download
 from PIL import Image
 
-from san import add_san_config
-from san.data.datasets.register_coco_stuff_164k import COCO_CATEGORIES
+from .san import add_san_config
+from .san.data.datasets.register_coco_stuff_164k import COCO_CATEGORIES
 
 model_cfg = {
     "san_vit_b_16": {

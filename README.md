@@ -60,7 +60,7 @@ Here, the "cross" symbol ❌ and the checkmark symbol ✅ denote the unmatched a
 
 ## TODO
 
-- [ ] Release Gradio Demo
+- [x] Release Gradio Demo
 - [ ] Release sampling codes
 - [x] Release inference codes
 - [x] Release pre-trained models
@@ -80,6 +80,13 @@ conda env create -f environment.yaml
 ### Download Pretrained Weights
 
 Download the pretrained models from [here](https://huggingface.co/MichaelHu/cocktail), and save it to the root dir.
+
+### Gradio Demo
+Gradio demo can be launched by:
+```bash
+python gradio_demo.py [--share]
+```
+![img](readme/gradio_demo.png) 
 
 ### Annotations
 We use HED, SAN, and OpenPose to extract the sketch map, segmentation map, and human pose map from the image.

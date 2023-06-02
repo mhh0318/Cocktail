@@ -11,7 +11,7 @@ from detectron2.projects.point_rend.point_features import (
     point_sample,
 )
 
-from san.utils.misc import is_dist_avail_and_initialized, nested_tensor_from_tensor_list
+from ..utils.misc import is_dist_avail_and_initialized, nested_tensor_from_tensor_list
 
 
 def dice_loss(
